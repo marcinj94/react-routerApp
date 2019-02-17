@@ -70,7 +70,7 @@
     height: 250px;
 }
 
-.nav__list {
+/* .nav__list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,6 +82,30 @@
 
 .nav__list.active {
     transform: scale(1);
+} */
+
+.nav__list {
+    display: none;
+}
+
+.nav__list.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    transform: scale(0);
+    animation: showList .5s forwards;
+}
+
+@keyframes showList {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 .nav__link {
