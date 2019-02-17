@@ -1,0 +1,102 @@
+.main-navbar {
+    background-color: #222;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.main-navbar__hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hamburger__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hamburger__item--first {
+    top: 0;
+    transition: top .3s, transform .3s .3s;
+}
+
+.hamburger__item--second {
+    top: 8px;
+    transition: .5s .2s;
+}
+
+.hamburger__item--third {
+    top: 16px;
+    transition: top .3s, transform .3s .3s;
+}
+
+.hamburger__item--first.active,
+.hamburger__item--third.active {
+    top: 8px;
+}
+
+.hamburger__item--first.active {
+    transform: rotate(45deg);
+}
+
+.hamburger__item--third.active {
+    transform: rotate(-45deg);
+}
+
+.hamburger__item--second.active {
+    opacity: 0;
+}
+
+.main-navbar__nav {
+    transition: .5s;
+    height: 40px;
+}
+
+.main-navbar__nav.active {
+    height: 250px;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.nav__list.active {
+    transform: scale(1);
+}
+
+.nav__link {
+    margin-top: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    transition: .5s;
+}
+
+.nav__link.active {
+    box-shadow: 0 0 2px greenyellow;
+}
+
+.nav__link:hover {
+    color: red;
+}

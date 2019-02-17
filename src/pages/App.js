@@ -35,26 +35,26 @@ class App extends Component {
       //   </header>
 
       //   <div className="main-navbar">
-      //     <button className="main-navbar__hamburger">
-      //       <span className="hamburger__item hamburger__item--first"></span>
-      //       <span className="hamburger__item hamburger__item--second"></span>
-      //       <span className="hamburger__item hamburger__item--third"></span>
-      //       asdasd
-      //     </button>
-      //     <nav>
-      //       <ul>
-      //         <li><a href="">item</a></li>
-      //       </ul>
-      //       <ul>
-      //         <li><a href="">item2</a></li>
-      //       </ul>
-      //       <ul>
-      //         <li><a href="">item3</a></li>
-      //       </ul>
-      //       <ul>
-      //         <li><a href="">item4</a></li>
-      //       </ul>
-      //     </nav>
+      // <button className="main-navbar__hamburger">
+      //   <span className="hamburger__item hamburger__item--first"></span>
+      //   <span className="hamburger__item hamburger__item--second"></span>
+      //   <span className="hamburger__item hamburger__item--third"></span>
+      //   asdasd
+      // </button>
+      // <nav>
+      //   <ul>
+      //     <li><a href="">item</a></li>
+      //   </ul>
+      //   <ul>
+      //     <li><a href="">item2</a></li>
+      //   </ul>
+      //   <ul>
+      //     <li><a href="">item3</a></li>
+      //   </ul>
+      //   <ul>
+      //     <li><a href="">item4</a></li>
+      //   </ul>
+      // </nav>
       //   </div>
 
       //   <section className="page">
