@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/Header.css';
 
 const Header = () => {
     return (
-        <div>
-            Header
-        </div>
+        <>
+            <h1 className="header__title">React.js app with React-router</h1>
+        </>
     );
 }
 
